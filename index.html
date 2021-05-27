@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+  <!--  This is the head section where we add external resources and links  -->
+  <head>
+
+    <title> Smooth Ride Bike Co. </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this is gridlex for our grid layouts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+    <!-- Google fonts -- might use these for the cookie jar/bakery page --> 
+    <!-- 300 - light, 400 - regular, 700- bold, 900 - black -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900" rel="stylesheet">
+
+    <!-- this is the icon font, fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Form Spree button 
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/f/xrgoweyq"})
+</script> -->
+    
+    <!-- This is our custom stylesheet, it always goes last -->
+    <link href="style.css" rel="stylesheet">
+
+
+    <!-- This adds jquery and smooth scrolling, not part of the course but just to make your site look great! -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+
+  </head>
+
+  <!-- This is the main content of the page -->
+  <body id="body">
+
+      <!-- this is our main header -->
+      <header class="grid">
+        <div class="col-4_sm-12 no-padding">
+          <h1> Smooth Ride Bike Co. </h1>
+        </div>
+        <nav class="col-8_sm-12-middle mobile-hide right no-padding">
+          <a href="#features"> Features </a>
+          <a href="#about"> About </a>
+          <a href="#location"> Location </a>
+          <a href="#social"> Social </a>
+        </nav>
+      </header>
+
+      <!-- this is our intro banner section -->
+      <section class="banner padded center grid">
+        <div class="col-12-middle">
+          
+          <h2> find out why IMB ranked our store as the ultimate riding solution <br> &darr; </h2>
+        </div>
+      </section>
+
+      <!-- first text + image section -->
+      <section class="grid reverse-on-mobile aos" id="features">
+        <div class="col-6_sm-12 bg-image" style="background-image:url('images/david-marcu-bike-unsplash.jpg')">
+
+        </div>
+        <div class="col-6_sm-12 padded">
+          <h2> built to endure </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt.</p>
+        </div>
+
+      </section>
+
+       <!-- second text + image section -->
+       <section class="grid aos">
+        <div class="col-6_sm-12 padded">
+          <h2> built to last </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt.</p>
+        </div>
+        <div class="col-6_sm-12 bg-image" style="background-image:url('images/daniel-frank-bike-banner-unsplash.jpg')">
+        </div>
+      </section>
+
+      <!-- third text + image section -->
+      <section class="grid reverse-on-mobile aos">
+        <div class="col-6_sm-12 bg-image bg-puppy" style="background-image:url('images/igor-flek-pug-bike-unsplash.jpg')">
+        </div>
+        <div class="col-6_sm-12 padded">
+          <h2> pet approved </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </section>
+
+      <!-- this is our CTA section -->
+      <section class="padded center bg-light aos" id="about">
+          <h2> a bike for every type </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="slides.pdf" class="button" target="_blank"> Request Info </a>
+      </section>
+
+      <!-- this is our map section -->
+      <section class="grid padded" id="location">
+        <div class="col-6_sm-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.144848703458!2d103.81866796652272!3d1.3032659240748508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc013038121727be5!2sSealy+Sleep+Palace+(Flagship+Store)!5e0!3m2!1sen!2ssg!4v1557985951593!5m2!1sen!2ssg" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-6_sm-12 padded">
+          <h2> where to find us </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p> <strong>Address:</strong> 1 Main St Melbourne </p>
+          <p> <strong>Phone:</strong> 0455 555 555 </p>
+
+        </div>
+
+      </section>
+
+      <!-- this is our footer -->
+      <footer class="padded center bg-dark grid-center" id="social">
+        <div class="col-8_sm-12">
+          <h2> let's connect </h2>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+          <a href="mailto:hello@company.com"> hello@company.com </a>
+          <nav class="social-links">
+            <a href="#">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+          </nav>
+        </div>
+      </footer>
+
+      <script src="scroll.js"></script>
+  </body>
+</html>
