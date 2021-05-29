@@ -125,6 +125,7 @@
   .banner h2 {
     font-size: 1.8rem;
     font-weight: normal;
+    vertical-align: top;
   }
   
   /* Bg images */
@@ -138,7 +139,36 @@
   footer:focus  {
     outline: none;
   }
-  
+  /* SCROLL ANIMATION */
+  .aos {
+    position: relative;
+    top: 20px;
+    opacity: 0;
+    transition: 0.5s ease-out;
+    
+}
+
+.aos.active {
+    top: 0;
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: .3s ease-in;
+}
+
+.fab-buttons {
+  font-size: 24px;
+}
+  .fa-hover:hover {
+    color: orange;
+    cursor: pointer;
+  }
+.top-arrow {
+  font-size: 20px;
+}
+.shop {
+  font-size: 20px;
+}
+
   /* Media Queries */
   
   @media(max-width:768px) {
